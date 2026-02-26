@@ -14,7 +14,7 @@ numberofPizzas = 10
 # String = anything wrapped around quotations is a string data type
 # Data "string" together by quotations
 
-"hello
+"hello"
 "About my grade"
 
 # Boolean = represent true or false values
@@ -28,3 +28,4 @@ print(x - y)
 print(True) 
 
 print(y + x) 
+
