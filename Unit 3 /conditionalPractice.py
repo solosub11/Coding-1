@@ -12,3 +12,19 @@ def coinMachine():
         print("sorry, this bill amount is not accepting")
 
 coinMachine()
+
+
+def collegeOffer(GPA):
+    if GPA >= 3.5: 
+        print("Congrants you have been given an offer to our school.")
+    elif GPA >= 2.8:
+        print("Congrants you have been given a conditional offer to our school")
+    else: 
+        print("Unfortunately, you have not been accepted.")
+
+collegeOffer(3.0)
+
+
+
+
+
