@@ -13,10 +13,25 @@
 blCoding = ["Intro codding", "coding 2", "ap comp sci"]
 print(blCoding)
 
+
 # every item in a list is called an index.
 # lists are organized sequentially vy index position 
 # lists always start at zero.
 
-print(blCoding[0])
-print(blCoding.count[])
+print(blCoding[1])
+
+# list methods are functions that work on lists
+# remeber: functions just means code instructions 
+
+# the append method allows us to add an item at the END of a list
+blCoding.append("cyber security")
+print(blCoding)
+
+# The insert method allows us to add an item ANYWHERE in a list so long as we tell it with index to pass
+# it in 
+blCoding.insert(2,15)
+print(blCoding)
+
+
+
 
