@@ -8,9 +8,19 @@ while savings < goal:
     print("you have" + str(savings) + "in your account")
     if savings >= goal: 
         print("Congrats! you have enough for your trip")
+    else: 
+        print("keep saving.")
 
 
 
-while userpassword < "Sub1199":
-    userpassword = "Sub1199"
-    print("Congrats! this password is accepted")
+
+
+def pwLoop():
+    pw = "1234abcd"
+    while pw != userPw:
+        print("please try again")
+    userPw = input("what is your password: ")
+    if pw == userPw: 
+        print("congrats")
+
+pwLoop()
